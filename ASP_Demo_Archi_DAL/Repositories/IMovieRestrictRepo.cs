@@ -9,7 +9,7 @@ namespace ASP_Demo_Archi_DAL.Repositories
 {
     public interface IMovieRestrictRepo
     {
-        List<Movie> GetAll();
+        List<Movie>  GetAll();
         Movie GetById(int id);
     }
 }
